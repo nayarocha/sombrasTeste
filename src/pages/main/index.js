@@ -103,9 +103,10 @@ const shadows = makeStyles({
     },
 
    
+    //NOVASSSSSS MOBI
 
     mobishadowSmallest:{
-        boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.16), 0px 1px 2px rgba(0, 0, 0, 0.10)',
+        boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.20), 0px 1px 2px rgba(0, 0, 0, 0.14)',
         border: "none",
     },
 

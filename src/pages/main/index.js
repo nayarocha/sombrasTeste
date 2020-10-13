@@ -124,6 +124,11 @@ const shadows = makeStyles({
         boxShadow: '0px 2px 4px  rgba(0,0,0,0.16), 0px 2px 4px rgba(0,0,0,0.10)',
         border: "none",
     },
+
+    mobishadowMedium:{
+        boxShadow: '0px 4px 6px  rgba(0,0,0,0.16), 0px 4px 6px rgba(0,0,0,0.10)',
+        border: "none",
+    },
     
 });
 
@@ -281,6 +286,38 @@ export default function Album() {
                     </CardActions>
                     </Card>
                 </Grid>
+
+
+                <Grid item xs={12} sm={6} md={4}>
+                    <Card className={classes.card, sombras.mobishadowMedium}>
+                    <CardMedia
+                        className={classes.cardMedia}
+                        image="https://media.gazetadopovo.com.br/2019/10/04121639/renault-kwid-novo-subcompacto-5-660x372.jpg"
+                        title="Image title"
+                    />
+                    <CardContent className={classes.cardContent}>
+                        <Typography gutterBottom variant="h5" component="h2">
+                           Mobiauto new   
+                        </Typography>
+                        <Typography>
+                        Mobiauto Medium 
+                        
+                        </Typography>
+                        <Typography>
+                        boxShadow: '0px 4px 6px  rgba(0,0,0,0.16), 0px 4px 6px rgba(0,0,0,0.10)', 
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small" color="primary">
+                        São Paulo-SP
+                        </Button>
+                        <Button size="small" color="primary">
+                        Edit
+                        </Button>
+                    </CardActions>
+                    </Card>
+                </Grid>
+          
           
           </Grid>
 

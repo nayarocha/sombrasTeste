@@ -35,7 +35,7 @@ export default function SimpleAppBar() {
              <MenuIcon />
            </IconButton>
            <Typography variant="h6" className={classes.title}>
-             Teste componentes
+             Teste sombras
            </Typography>
            
          </Toolbar>

@@ -8,7 +8,8 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-
+//original shadows 
+//https://github.com/material-components/material-components-web/blob/master/packages/mdc-elevation/_elevation-theme.scss
 
 
 
@@ -105,8 +106,17 @@ const shadows = makeStyles({
    
     //NOVASSSSSS MOBI
 
+    //num ajustado para ser mais visivel no monitor
+
+    /*
     mobishadowSmallest:{
         boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.20), 0px 1px 2px rgba(0, 0, 0, 0.14)',
+        border: "none",
+    },
+    
+    */
+    mobishadowSmallest:{
+        boxShadow: '0px 1x 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.10)',
         border: "none",
     },
 

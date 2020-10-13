@@ -116,7 +116,7 @@ const shadows = makeStyles({
     
     */
     mobishadowSmallest:{
-        boxShadow: '0px 1x 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.10)',
+        boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.16), 0px 1px 2px rgba(0, 0, 0, 0.10)',
         border: "none",
     },
 

@@ -65,9 +65,32 @@ const shadows = makeStyles({
         border: "none",
     },
 
-    /* Shadow 1dp */
+    airbnb78:{
+        boxSshadow: 'rgba(0, 0, 0, 0.15) 0px 2px 8px',
+        border: "none",
+    },  
+
+    airbnb76:{
+        boxShadow: 'rgba(0, 0, 0, 0.15) 0px 3px 3px 0px',
+    },
+
+    
+
+    /* Shadow 1dp - material IO */
     shad1dp:{
         boxShadow: '0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20)',
+        border: "none",
+    },
+
+    /*Shadow 1dp - material IO - suavizando e*/
+    testeshad1dp:{
+        boxShadow: '0 1px 1px 0 rgba(0,0,0,0.12), 0 2px 1px -1px rgba(0,0,0,0.10), 0 1px 3px 0 rgba(0,0,0,0.18)',
+        border: "none"
+    },
+
+    // suavizando mais a partir do shadow 1dp
+    testeshad1dp2:{
+        boxShadow: '0px 2px 4px  rgba(0,0,0,0.16), 0px 2px 4px rgba(0,0,0,0.10)',
         border: "none",
     },
 
@@ -75,10 +98,7 @@ const shadows = makeStyles({
         boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
     },
 
-    testeshad1dp:{
-        boxShadow: '0 1px 1px 0 rgba(0,0,0,0.12), 0 2px 1px -1px rgba(0,0,0,0.10), 0 1px 3px 0 rgba(0,0,0,0.18)',
-        border: "none",
-    },
+   
     
 });
 
@@ -210,7 +230,7 @@ export default function Album() {
                            Airbnb
                         </Typography>
                         <Typography>
-                        Airbnb shadow
+                        Airbnb 79
                         </Typography>
                     </CardContent>
                     <CardActions>
@@ -237,6 +257,86 @@ export default function Album() {
                         </Typography>
                         <Typography>
                         Exemplo 1 : Suavizando a shadow 1dp. 
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small" color="primary">
+                        São Paulo-SP
+                        </Button>
+                        <Button size="small" color="primary">
+                        Edit
+                        </Button>
+                    </CardActions>
+                    </Card>
+                </Grid>
+
+
+                <Grid item xs={12} sm={6} md={4}>
+                    <Card className={classes.card, sombras.airbnb76}>
+                    <CardMedia
+                        className={classes.cardMedia}
+                        image="https://media.gazetadopovo.com.br/2019/10/04121639/renault-kwid-novo-subcompacto-5-660x372.jpg"
+                        title="Image title"
+                    />
+                    <CardContent className={classes.cardContent}>
+                        <Typography gutterBottom variant="h5" component="h2">
+                           Airbnb 
+                        </Typography>
+                        <Typography>
+                        Airbnb 76
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small" color="primary">
+                        São Paulo-SP
+                        </Button>
+                        <Button size="small" color="primary">
+                        Edit
+                        </Button>
+                    </CardActions>
+                    </Card>
+                </Grid>
+
+
+                <Grid item xs={12} sm={6} md={4}>
+                    <Card className={classes.card, sombras.airbnb78}>
+                    <CardMedia
+                        className={classes.cardMedia}
+                        image="https://media.gazetadopovo.com.br/2019/10/04121639/renault-kwid-novo-subcompacto-5-660x372.jpg"
+                        title="Image title"
+                    />
+                    <CardContent className={classes.cardContent}>
+                        <Typography gutterBottom variant="h5" component="h2">
+                           Airbnb 
+                        </Typography>
+                        <Typography>
+                        Airbnb 78
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="small" color="primary">
+                        São Paulo-SP
+                        </Button>
+                        <Button size="small" color="primary">
+                        Edit
+                        </Button>
+                    </CardActions>
+                    </Card>
+                </Grid>
+
+                <Grid item xs={12} sm={6} md={4}>
+                    <Card className={classes.card, sombras.testeshad1dp2}>
+                    <CardMedia
+                        className={classes.cardMedia}
+                        image="https://media.gazetadopovo.com.br/2019/10/04121639/renault-kwid-novo-subcompacto-5-660x372.jpg"
+                        title="Image title"
+                    />
+                    <CardContent className={classes.cardContent}>
+                        <Typography gutterBottom variant="h5" component="h2">
+                           Material  
+                        </Typography>
+                        <Typography>
+                        Suavizando ainda mais a shadow partindo de 1dp
                         </Typography>
                     </CardContent>
                     <CardActions>
